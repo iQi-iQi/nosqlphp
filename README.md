@@ -6,16 +6,16 @@ it makes nosql very simple with php.
 
 for example:
 
-//search
+//search:
 $user = $nodb->get("user-uid-123");
 
-//insert or update
+//insert or update:
 $nodb->set("user-uid-123", $user);
 
-//delete
+//delete:
 $nodb->delete("user-uid-123");
 
-//count
+//count:
 $n = $nodb->count('user');
 
 test php example:
